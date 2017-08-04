@@ -21,7 +21,7 @@ dependencyManagement {
         mavenBom 'io.spring.platform:platform-bom:Brussels-SR1'
     }
     dependencies {
-        dependency 'io.rebelsouls.lib:rebelsouls-mail:1.1'
+        dependency 'io.rebelsouls.lib:rebelsouls-mail:1.2'
         dependency 'io.rebelsouls.lib:rebelsouls-util:1.10'
         dependency 'io.rebelsouls.lib:rebelsouls-storage:1.1'
         dependency 'io.rebelsouls.lib:rebelsouls-users:1.2'
@@ -51,3 +51,4 @@ publishing {
         }
     }
 }
+
