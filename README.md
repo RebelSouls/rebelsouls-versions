@@ -8,6 +8,10 @@ Dependency Management description.
 ### Get versions in a project
 
 ```groovy
+plugins {
+    id "io.spring.dependency-management" version "1.0.3.RELEASE"
+}
+
 dependencyManagement {
     imports {
         mavenBom 'io.rebelsouls.lib:rebelsouls-versions:1.0'
