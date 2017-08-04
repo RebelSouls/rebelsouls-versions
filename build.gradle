@@ -18,7 +18,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom 'io.spring.platform:platform-bom:Brussels-SR1'
+        mavenBom 'io.spring.platform:platform-bom:Brussels-SR4'
     }
     dependencies {
         dependency 'io.rebelsouls.lib:rebelsouls-mail:1.2'
