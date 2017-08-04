@@ -22,9 +22,13 @@ dependencyManagement {
     }
     dependencies {
         dependency 'io.rebelsouls.lib:rebelsouls-mail:1.2'
-        dependency 'io.rebelsouls.lib:rebelsouls-util:1.10'
+        dependency 'io.rebelsouls.lib:rebelsouls-util:1.11'
         dependency 'io.rebelsouls.lib:rebelsouls-storage:1.1'
         dependency 'io.rebelsouls.lib:rebelsouls-users:1.2'
+        
+        dependency 'com.mashape.unirest:unirest-java:1.4.9'
+        dependency 'org.projectlombok:lombok:1.16.18'
+        dependency 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final'
     }
 }
 
