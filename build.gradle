@@ -29,6 +29,7 @@ dependencyManagement {
         dependency 'com.mashape.unirest:unirest-java:1.4.9'
         dependency 'org.projectlombok:lombok:1.16.18'
         dependency 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final'
+        dependency 'org.thymeleaf:thymeleaf-spring4:3.0.0.RELEASE'
     }
 }
 
