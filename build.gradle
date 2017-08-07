@@ -21,10 +21,10 @@ dependencyManagement {
         mavenBom 'io.spring.platform:platform-bom:Brussels-SR4'
     }
     dependencies {
-        dependency 'io.rebelsouls.lib:rebelsouls-mail:2.0-SNAPSHOT'
-        dependency 'io.rebelsouls.lib:rebelsouls-util:1.12-SNAPSHOT'
-        dependency 'io.rebelsouls.lib:rebelsouls-storage:1.2-SNAPSHOT'
-        dependency 'io.rebelsouls.lib:rebelsouls-users:1.3-SNAPSHOT'
+        dependency 'io.rebelsouls.lib:rebelsouls-mail:2.0'
+        dependency 'io.rebelsouls.lib:rebelsouls-util:1.12'
+        dependency 'io.rebelsouls.lib:rebelsouls-storage:1.2'
+        dependency 'io.rebelsouls.lib:rebelsouls-users:1.3'
         
         dependency 'com.mashape.unirest:unirest-java:1.4.9'
         dependency 'org.projectlombok:lombok:1.16.18'
