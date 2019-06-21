@@ -5,9 +5,13 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.7.RELEASE'
 }
 
+repositories {
+        mavenCentral()
+}
+
 dependencyManagement {
     imports {
-        mavenBom 'io.spring.platform:platform-bom:Brussels-SR4'
+        mavenBom 'io.spring.platform:platform-bom:Cairo-RELEASE'
     }
     dependencies {
         dependency 'io.rebelsouls.lib:rebelsouls-util:1.21'
