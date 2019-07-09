@@ -11,7 +11,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom 'io.spring.platform:platform-bom:Cairo-RELEASE'
+        mavenBom 'io.spring.platform:platform-bom:Cairo-SR8'
     }
     dependencies {
         dependency 'io.rebelsouls.lib:rebelsouls-util:1.21'
